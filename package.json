@@ -1,0 +1,61 @@
+{
+  "name": "react-portfolio-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "*",
+    "@fortawesome/fontawesome-svg-core": "*",
+    "@fortawesome/free-brands-svg-icons": "*",
+    "@fortawesome/free-solid-svg-icons": "*",
+    "@fortawesome/react-fontawesome": "*",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/react": "*",
+    "@testing-library/user-event": "*",
+    "animate.css": "*",
+    "axios": "^1.1.3",
+    "firebase": "*",
+    "gsap-trial": "*",
+    "leaflet": "*",
+    "loaders.css": "*",
+    "random-words": "1.1.2",
+    "react": "*",
+    "react-dom": "*",
+    "react-icon-cloud": "^4.1.4",
+    "react-leaflet": "*",
+    "react-loaders": "*",
+    "react-router-dom": "*",
+    "react-scripts": "*",
+    "react-toastify": "^9.1.1",
+    "sass": "*",
+    "simple-icons": "^7.19.0",
+    "web-vitals": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18"
+  }
+}
