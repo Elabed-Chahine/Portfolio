@@ -41,6 +41,7 @@ import vagrant from '../../../assets/Vagrant.png'
 import sonar from '../../../assets/sonar.png'
 import cloud from '../../../assets/cloud.png'
 import colab from '../../../assets/colab.png'
+import photo from '../../../assets/photo1.jpg'
 
 
 
@@ -256,6 +257,11 @@ const techs = [
     title: 'Colab',
     img: colab,
   },
+  {
+    id: 44,
+    title: 'Chahine',
+    img: photo,
+  },
 ]
    
 const renderIcons = (techs)=>{
@@ -266,6 +272,7 @@ const renderIcons = (techs)=>{
             {tech.title}
             <img height="42" width="42" alt="html" src={tech.img} />
           </a>
+          
         </div>
       </div>
     ))
@@ -279,6 +286,7 @@ const renderText= (techs) => (techs.map((tech) => (
           {tech.title}
           
         </a>
+        
       </div>
     </div>
   ))
@@ -286,37 +294,9 @@ const renderText= (techs) => (techs.map((tech) => (
 
   return (
     <Cloud>
-      {/*  <a>hello world</a>
-      <a>python</a>
-      <a>bread</a>
-      <a>python</a>
-      <a>bread</a>
-      <a>python</a>
-      <a>bread</a>
-      <a>python</a>
-      <a>bread</a>
-      <a>python</a>
-      <a>bread</a>
-      <a>python</a>
-      <a>bread</a>
-      <a>python</a>
-      <a>bread</a>
-      <a>python</a>
-      <a>bread</a>
-      <p>book xlll</p> */}
+      
       {show ? renderIcons(techs) : renderText(techs)}
-      <a
-        href="https://emojipedia.org/globe-showing-americas/"
-        
-      >
-        
-        <img
-          height="42"
-          width="42"
-          alt="A globe"
-          src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/globe-showing-americas_1f30e.png"
-        />
-      </a>
+      
     </Cloud>
   )
 }
