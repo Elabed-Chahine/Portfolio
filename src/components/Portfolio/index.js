@@ -167,12 +167,13 @@ const Portfolio = () => {
                               <h4 className="description">
                                 {port.responsibilities}
                               </h4>
+                              
                               {port.github !== '' && (
                                 <button
                                   className="btn"
                                   onClick={() => window.open(port.github)}
                                 >
-                                  View Code
+                                  Code
                                 </button>
                               )}
 

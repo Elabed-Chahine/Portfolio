@@ -133,9 +133,20 @@
 
 @media screen and (max-width:764px) {
 
+    .content{
+        align-items: left;
+    }
     .content>p,
     h4 {
         display: none;
+    }
+
+    
+        .content>.btn{
+            width:100%;
+            opacity: 50;  
+            margin-left: -20px;
+            
     }
 
 }
