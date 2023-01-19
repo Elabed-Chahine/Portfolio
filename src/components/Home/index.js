@@ -75,7 +75,7 @@ const Home = () => {
             CONTACT
             <span className="me"> ME</span>
           </Link>
-          <a href="../../assets/resume.pdf" className=" resume " download={true}>
+          <a href="../../assets/resume.pdf" className="resume" download={true}>
             Download
             <span className="me">resume</span>
           </a>

@@ -31,6 +31,9 @@ transform: translate( -50%);
     background-color: #0b1146;
     box-shadow: 18px 18px 18px 18px rgba(0, 0, 0, 0.75);
     border-radius: 8px;
+    
+        height: 80vh;
+            overflow-y: auto;
 }
 
 .contents > h3{
@@ -40,7 +43,6 @@ transform: translate( -50%);
 }
 .contents > h2{
     color: rgb(255, 200, 50);
-    
 }
 
 .modalContainer> img {
@@ -139,7 +141,6 @@ transform: translate( -50%);
 }
 .used{
     display: inline-block;
-    
 }
 
 .used > button{

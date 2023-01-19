@@ -103,7 +103,7 @@ const Portfolio = () => {
          img: uber,
          video: vid5,
          role: 'Mobile Developer',
-         responsibilities: 'Designed and Developed an Uber Clone',
+         responsibilities: ' Designed and developed an Uber Clone with an extra ability to add friends and locations leading to their houses with an indicator to how close you d be to certain friends if you re visiting their neighborhood, and the chances of an encounter.',
          Accomplishments:
            'Designed and created o UI/UX identical to Uber. Implemented the Authentication. Implemented Google APIs to calculate distance and find shortest possible ways. Implemented a function that calcules the price based on distance and rush hour. Added a favorite place to Immediately pin as destination. Added an extra functionality to add friends’ locations to Immediately pick as destination',
          used: ["React Native", "Firebase", "CSS", "Tailwind CSS"],
@@ -154,6 +154,7 @@ const Portfolio = () => {
         return (
             <div className="images-container">
                 {
+                  
                     portfolio.map((port) => {
                         return (
                           <div className="image-box" key={port.id}>
