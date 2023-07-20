@@ -141,9 +141,11 @@ transform: translate( -50%);
 }
 .used{
     display: inline-block;
+    
 }
 
 .used > button{
+    margin: 6px;
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 16px;
     background-color: rgb(0, 83, 190);

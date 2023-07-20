@@ -3,14 +3,17 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import agency from '../../assets/Videos/agency/1.PNG'
-import jenkins from '../../assets/Videos/jenkins.png'
-import mern from '../../assets/Videos/mern/111.PNG'
+import jenkins from '../../assets/Videos/pipeline.png'
+import mern from '../../assets/Videos/mern/goals.png'
 import medical from '../../assets/Videos/Machine/Capture.PNG'
 import reddit from '../../assets/Videos/studybud/Capture.PNG'
 import uber from '../../assets/Videos/uber/6.jpg'
 import books from '../../assets/Videos/Bookstore/Capture.PNG'
 import trucks from '../../assets/Videos/trucks/Capture.PNG'
 import reactWeather from '../../assets/images/reactWeather.jpg'
+import arty from '../../assets/Videos/mobile_explore_artworks.png'
+import bakery from '../../assets/Videos/bakery.jpg'
+import artyweb from '../../assets/Videos/arty.png'
 import vid1 from '../../assets/Videos/devops.mp4'
 import vid2 from '../../assets/Videos/agencyvi.mp4'
 import vid3 from '../../assets/Videos/MachineLearning.mp4'
@@ -18,6 +21,9 @@ import vid4 from '../../assets/Videos/studybuud.mp4'
 import vid5 from '../../assets/Videos/Uber.mp4'
 import vid6 from '../../assets/Videos/Bookstorevid.mp4'
 import vid7 from '../../assets/Videos/Trucks.mp4'
+import vid8 from '../../assets/Videos/connect_request.mp4'
+import vid9 from '../../assets/Videos/web_demo.mp4'
+import vid10 from '../../assets/Videos/goal_scoring.mp4'
 import Modal from "./Modal/Modal";
 import 'react-toastify/dist/ReactToastify.css'
 import './Modal/Modal.css'
@@ -41,15 +47,51 @@ const Portfolio = () => {
 
      const portfolio = [
        {
+         id: 11,
+         img: arty,
+         role: 'Mobile engineer',
+         video: vid8,
+         responsibilities:
+           'Design and Development of a social media  mobile application. ',
+         Accomplishments:
+           'worked with a team of two developers using Scrum framework in the successful development of a mobile application, meeting the project deadline, resulting in a compact, seamless application with a beautiful design and positive feedback from the the other teams.',
+         used: [ "React Native", "Node.js", "MongoDB","Context API","GraphQL", "Jenkins", "Docker"],
+         github: '',
+       },
+       {
+         id: 111,
+         img: artyweb,
+         role: 'Front end engineer',
+         video: vid9,
+         responsibilities:
+           'Development of an attractive social media platform. ',
+         Accomplishments:
+           " Created a beautiful  front-end for a social media platform resulting in a successful ad campain bringing more than 5K users subscribed to the companys newletter waiting for the Deployment.  Implemented SSR with nextjs wisely to improve SEO without affecting platform speed.",  
+         used: ["Next.js", "Node.js", "Express","MongoDB", "Context API", "GraphQL", "Jenkins", "Docker"],
+         github: '',
+       },
+       {
          id: 1,
          img: jenkins,
          role: 'DevOps Engineer',
          video: vid1,
          responsibilities:
-           'Designed and Developed an attractive and responsive goal scroing and management website',
+           'Lead the development of a CI/CD pipeline That raised team productivity by 40% ',
          Accomplishments:
            'Prepared the development infrastructure, Managed the continuous Integration with Jenkins. Automated the SAST scan . Automated the Continuous deployment and added the monitoring functionality',
          used: ["Jenkins", "Docker", "SonarQube","Ansible", "Prometheus", "Grafana"],
+         github: '',
+       },
+       {
+         id: 222,
+         img: bakery,
+         role: 'Mobile developer',
+         video: 'null',
+         responsibilities:
+           'Led a team of 3 friends in developing a mobile application for a bakery',
+         Accomplishments:
+           'I spearheaded a team of three developers in successfully building a mobile application for a local bakery, enhancing its customer experience and digital presence. The project involved seamless collaboration and resulted in a user-friendly app that catered to the bakerys specific needs and requirements.',
+         used: ["React Native", "Node.js", "Express", "MongoDB", "Redux"],
          github: '',
        },
        {
@@ -66,7 +108,7 @@ const Portfolio = () => {
        {
          id: 3,
          img: mern,
-         video: 'null',
+         video: vid10,
          responsibilities:
            'Designed and Developed an attractive and responsive goal scroing and management website',
          Accomplishments:
