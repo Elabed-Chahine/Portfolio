@@ -88,7 +88,7 @@ const Portfolio = () => {
          role: 'Mobile developer',
          video: 'null',
          responsibilities:
-           'Led a team of 3 friends in developing a mobile application for a bakery',
+           'Led a team of 3 developers in developing a mobile application.',
          Accomplishments:
            'I spearheaded a team of three developers in successfully building a mobile application for a local bakery, enhancing its customer experience and digital presence. The project involved seamless collaboration and resulted in a user-friendly app that catered to the bakerys specific needs and requirements.',
          used: ["React Native", "Node.js", "Express", "MongoDB", "Redux"],
